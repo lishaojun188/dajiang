@@ -1,0 +1,20 @@
+{
+  "id": "conv-1772421727663-7mf3lu472",
+  "title": "补充心咖啡进入项目文件清单",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772421727664,
+  "updatedAt": 1772431997938,
+  "lastResponseAt": 1772421966976,
+  "sessionId": "a0c15312-a1e7-4d6a-b632-bbd774e7988a",
+  "sdkSessionId": "a0c15312-a1e7-4d6a-b632-bbd774e7988a",
+  "currentNote": "Alex/人生红点/02 项目树/2026年项目.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 37144,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 37144,
+    "percentage": 19
+  }
+}

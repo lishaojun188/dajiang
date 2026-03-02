@@ -1,0 +1,20 @@
+{
+  "id": "conv-1772275388887-czglg44zq",
+  "title": "每个项目复盘标题边上加上项目概览文件的超链接",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772275388888,
+  "updatedAt": 1772276128528,
+  "lastResponseAt": 1772276104970,
+  "sessionId": "6e61f525-98a0-474f-a7f9-b3551478dabf",
+  "sdkSessionId": "6e61f525-98a0-474f-a7f9-b3551478dabf",
+  "currentNote": "Alex/人生红点/03 任务树/每月复盘/2026-02复盘.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 30466,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 30466,
+    "percentage": 15
+  }
+}

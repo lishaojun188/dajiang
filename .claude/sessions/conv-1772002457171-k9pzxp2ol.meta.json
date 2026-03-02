@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772002457171-k9pzxp2ol",
+  "title": "我要复盘这个项目，制定今年的目标和计划",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772002457171,
+  "updatedAt": 1772003319004,
+  "lastResponseAt": 1772002917268,
+  "sessionId": "a2e631cb-2cad-4a45-a2d3-367ebf59a74b",
+  "sdkSessionId": "a2e631cb-2cad-4a45-a2d3-367ebf59a74b",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 64424,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 64424,
+    "percentage": 32
+  }
+}

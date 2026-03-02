@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771558871986-3ycqr0i26",
+  "title": "@Alex/人生红点/02 项目树/2026年项目",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771558871987,
+  "updatedAt": 1771559711015,
+  "lastResponseAt": 1771559017155,
+  "sessionId": "e5a27662-f1ce-49a6-8887-8bc11d133acc",
+  "sdkSessionId": "e5a27662-f1ce-49a6-8887-8bc11d133acc",
+  "currentNote": "Alex/人生红点/01人生目标树/目标思维导图.canvas",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 51850,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 51850,
+    "percentage": 26
+  }
+}

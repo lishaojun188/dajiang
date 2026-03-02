@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771836168613-hdl4vffnx",
+  "title": "1",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771836168614,
+  "updatedAt": 1771836262563,
+  "lastResponseAt": 1771836213092,
+  "sessionId": "9a632e20-8e28-4235-9b03-978558b24275",
+  "sdkSessionId": "9a632e20-8e28-4235-9b03-978558b24275",
+  "currentNote": "Alex/人生红点/02 项目树/项目文件清单/项目0_主业工作调整/面试简历/简历基础版本20160223.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 21346,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 21346,
+    "percentage": 11
+  }
+}

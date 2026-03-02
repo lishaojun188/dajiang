@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772003577834-nwure10fe",
+  "title": "展开说明这个文档",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772003577834,
+  "updatedAt": 1772009624824,
+  "lastResponseAt": 1772003889682,
+  "sessionId": "7190b71d-79aa-47a7-a4ee-fa84d4792a79",
+  "sdkSessionId": "7190b71d-79aa-47a7-a4ee-fa84d4792a79",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 26973,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 26973,
+    "percentage": 13
+  }
+}

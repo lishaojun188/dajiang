@@ -1,0 +1,357 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-02-08",
+  "description": "AI 新闻标签分类体系 | AI News Tag Taxonomy System",
+
+  "person_tags": {
+    "description": "关注人物标签 - 出现这些人物的新闻优先处理",
+
+    "ai_company_leaders": {
+      "description": "AI 公司领袖",
+      "persons": [
+        { "name": "Sam Altman", "alias": ["奥特曼"], "affiliation": "OpenAI CEO", "tags": ["GPT", "AGI", "AI商业化"], "priority": "high" },
+        { "name": "Dario Amodei", "alias": ["达里奥·阿莫迪"], "affiliation": "Anthropic CEO", "tags": ["Claude", "AI安全", "宪法AI"], "priority": "high" },
+        { "name": "Daniela Amodei", "alias": [], "affiliation": "Anthropic President", "tags": ["Anthropic运营", "AI政策"], "priority": "medium" },
+        { "name": "Jensen Huang", "alias": ["黄仁勋"], "affiliation": "NVIDIA CEO", "tags": ["GPU", "AI芯片", "CUDA"], "priority": "high" },
+        { "name": "Satya Nadella", "alias": ["纳德拉"], "affiliation": "Microsoft CEO", "tags": ["Copilot", "Azure AI", "OpenAI合作"], "priority": "high" },
+        { "name": "Sundar Pichai", "alias": ["皮查伊"], "affiliation": "Google CEO", "tags": ["Gemini", "DeepMind", "Google AI"], "priority": "high" },
+        { "name": "Mark Zuckerberg", "alias": ["扎克伯格"], "affiliation": "Meta CEO", "tags": ["LLaMA", "开源AI", "Meta AI"], "priority": "medium" },
+        { "name": "Elon Musk", "alias": ["马斯克"], "affiliation": "xAI/Tesla CEO", "tags": ["Grok", "xAI", "AI监管"], "priority": "medium" },
+        { "name": "Tim Cook", "alias": ["库克"], "affiliation": "Apple CEO", "tags": ["Apple Intelligence", "端侧AI"], "priority": "medium" }
+      ]
+    },
+
+    "ai_researchers": {
+      "description": "AI 技术/研究专家",
+      "persons": [
+        { "name": "Andrej Karpathy", "alias": ["卡帕西"], "affiliation": "前Tesla/OpenAI", "tags": ["LLM教育", "AI开发实践"], "priority": "high" },
+        { "name": "Yann LeCun", "alias": ["杨立昆", "勒昆"], "affiliation": "Meta AI首席科学家", "tags": ["深度学习", "AI路线辩论"], "priority": "medium" },
+        { "name": "Ilya Sutskever", "alias": ["伊利亚"], "affiliation": "SSI创始人", "tags": ["超级智能", "AI安全"], "priority": "high" },
+        { "name": "Jim Fan", "alias": ["范麟熙"], "affiliation": "NVIDIA高级研究科学家", "tags": ["具身智能", "通用Agent"], "priority": "medium" },
+        { "name": "Fei-Fei Li", "alias": ["李飞飞"], "affiliation": "斯坦福/World Labs", "tags": ["计算机视觉", "空间智能"], "priority": "medium" },
+        { "name": "Demis Hassabis", "alias": ["哈萨比斯"], "affiliation": "Google DeepMind CEO", "tags": ["AGI", "AlphaFold", "科学AI"], "priority": "medium" },
+        { "name": "Noam Shazeer", "alias": [], "affiliation": "Google (Character.AI回归)", "tags": ["Transformer", "LLM架构"], "priority": "medium" }
+      ]
+    },
+
+    "ai_developers_kol": {
+      "description": "AI 开发者/意见领袖",
+      "persons": [
+        { "name": "Ethan Mollick", "alias": [], "affiliation": "沃顿商学院教授", "tags": ["AI教育", "AI实用指南"], "priority": "high" },
+        { "name": "Simon Willison", "alias": [], "affiliation": "Datasette创始人", "tags": ["LLM工具", "AI工程实践"], "priority": "medium" },
+        { "name": "Swyx", "alias": ["Shawn Wang"], "affiliation": "Latent Space", "tags": ["AI工程", "行业分析"], "priority": "medium" },
+        { "name": "Harrison Chase", "alias": [], "affiliation": "LangChain CEO", "tags": ["LangChain", "AI Agent"], "priority": "medium" },
+        { "name": "Matt Shumer", "alias": [], "affiliation": "HyperWrite CEO", "tags": ["AI Agent", "AI写作"], "priority": "low" }
+      ]
+    },
+
+    "ai_leaders_cn": {
+      "description": "国内 AI 人物",
+      "persons": [
+        { "name": "梁文锋", "alias": ["Liang Wenfeng"], "affiliation": "DeepSeek创始人", "tags": ["DeepSeek", "开源大模型"], "priority": "high" },
+        { "name": "杨植麟", "alias": ["Yang Zhilin"], "affiliation": "Moonshot AI/Kimi创始人", "tags": ["Kimi", "长文本大模型"], "priority": "high" },
+        { "name": "李彦宏", "alias": ["Robin Li"], "affiliation": "百度CEO", "tags": ["文心一言", "百度AI"], "priority": "medium" },
+        { "name": "张一鸣", "alias": ["Zhang Yiming"], "affiliation": "字节跳动创始人", "tags": ["豆包", "字节AI"], "priority": "medium" },
+        { "name": "王小川", "alias": ["Wang Xiaochuan"], "affiliation": "百川智能CEO", "tags": ["百川大模型"], "priority": "medium" },
+        { "name": "李开复", "alias": ["Kai-Fu Lee"], "affiliation": "零一万物/创新工场", "tags": ["Yi大模型", "AI创业"], "priority": "medium" },
+        { "name": "朱啸虎", "alias": ["Zhu Xiaohu"], "affiliation": "金沙江创投", "tags": ["AI投资", "AI创业"], "priority": "low" },
+        { "name": "周鸿祎", "alias": ["Zhou Hongyi"], "affiliation": "360集团创始人", "tags": ["AI安全", "大模型应用"], "priority": "low" },
+        { "name": "张鹏", "alias": [], "affiliation": "极客公园创始人", "tags": ["AI趋势", "行业活动"], "priority": "low" }
+      ]
+    }
+  },
+
+  "product_tags": {
+    "description": "关注产品标签 - 涉及这些产品的新闻优先处理",
+
+    "llm_models": {
+      "description": "大语言模型",
+      "products": [
+        { "name": "GPT-4o", "alias": ["GPT4o"], "company": "OpenAI", "priority": "high" },
+        { "name": "GPT-4.5", "alias": [], "company": "OpenAI", "priority": "high" },
+        { "name": "GPT-5", "alias": [], "company": "OpenAI", "priority": "critical" },
+        { "name": "o1", "alias": ["o1-preview", "o1-mini"], "company": "OpenAI", "priority": "high" },
+        { "name": "o3", "alias": ["o3-mini"], "company": "OpenAI", "priority": "high" },
+        { "name": "Claude 3.5", "alias": ["Claude 3.5 Sonnet", "Claude 3.5 Haiku"], "company": "Anthropic", "priority": "high" },
+        { "name": "Claude 4", "alias": ["Claude 4 Opus", "Claude 4 Sonnet"], "company": "Anthropic", "priority": "critical" },
+        { "name": "Claude Code", "alias": [], "company": "Anthropic", "priority": "high" },
+        { "name": "Gemini 2.0", "alias": ["Gemini 2.0 Flash", "Gemini 2.0 Pro"], "company": "Google", "priority": "high" },
+        { "name": "LLaMA 4", "alias": ["Llama 4"], "company": "Meta", "priority": "high" },
+        { "name": "Grok", "alias": ["Grok-3"], "company": "xAI", "priority": "medium" },
+        { "name": "DeepSeek-V3", "alias": [], "company": "DeepSeek", "priority": "high" },
+        { "name": "DeepSeek-R1", "alias": [], "company": "DeepSeek", "priority": "high" },
+        { "name": "Qwen 2.5", "alias": ["通义千问", "Qwen-Max"], "company": "阿里", "priority": "medium" },
+        { "name": "Kimi", "alias": ["Moonshot"], "company": "月之暗面", "priority": "medium" },
+        { "name": "豆包", "alias": ["Doubao"], "company": "字节跳动", "priority": "medium" },
+        { "name": "GLM-4", "alias": ["ChatGLM"], "company": "智谱AI", "priority": "medium" },
+        { "name": "Mistral", "alias": ["Mixtral"], "company": "Mistral AI", "priority": "medium" },
+        { "name": "Phi-4", "alias": [], "company": "Microsoft", "priority": "medium" }
+      ]
+    },
+
+    "ai_dev_tools": {
+      "description": "AI 开发工具",
+      "products": [
+        { "name": "Cursor", "alias": [], "company": "Anysphere", "priority": "critical" },
+        { "name": "GitHub Copilot", "alias": ["Copilot"], "company": "GitHub/Microsoft", "priority": "high" },
+        { "name": "Windsurf", "alias": ["Codeium"], "company": "Codeium", "priority": "medium" },
+        { "name": "Replit Agent", "alias": ["Replit"], "company": "Replit", "priority": "medium" },
+        { "name": "v0.dev", "alias": ["v0"], "company": "Vercel", "priority": "medium" },
+        { "name": "Bolt.new", "alias": ["Bolt"], "company": "StackBlitz", "priority": "medium" },
+        { "name": "Devin", "alias": [], "company": "Cognition AI", "priority": "medium" },
+        { "name": "OpenClaw", "alias": [], "company": "OpenClaw", "priority": "high" },
+        { "name": "MCP", "alias": ["Model Context Protocol"], "company": "Anthropic", "priority": "high" }
+      ]
+    },
+
+    "ai_creative_tools": {
+      "description": "AI 创作/媒体工具",
+      "products": [
+        { "name": "Midjourney", "alias": ["MJ"], "company": "Midjourney", "priority": "high" },
+        { "name": "DALL-E 3", "alias": ["DALL-E"], "company": "OpenAI", "priority": "medium" },
+        { "name": "Stable Diffusion", "alias": ["SD3", "SDXL", "SD"], "company": "Stability AI", "priority": "medium" },
+        { "name": "FLUX", "alias": [], "company": "Black Forest Labs", "priority": "medium" },
+        { "name": "Sora", "alias": [], "company": "OpenAI", "priority": "high" },
+        { "name": "Runway Gen-3", "alias": ["Runway"], "company": "Runway", "priority": "medium" },
+        { "name": "Pika", "alias": [], "company": "Pika Labs", "priority": "medium" },
+        { "name": "可灵", "alias": ["Kling"], "company": "快手", "priority": "medium" },
+        { "name": "Suno", "alias": [], "company": "Suno", "priority": "low" },
+        { "name": "Perplexity", "alias": [], "company": "Perplexity AI", "priority": "medium" },
+        { "name": "NotebookLM", "alias": [], "company": "Google", "priority": "medium" }
+      ]
+    },
+
+    "ai_frameworks": {
+      "description": "AI 框架/平台",
+      "products": [
+        { "name": "LangChain", "alias": ["LangGraph"], "company": "LangChain", "priority": "medium" },
+        { "name": "LlamaIndex", "alias": [], "company": "LlamaIndex", "priority": "medium" },
+        { "name": "CrewAI", "alias": [], "company": "CrewAI", "priority": "medium" },
+        { "name": "Dify", "alias": [], "company": "Dify", "priority": "medium" },
+        { "name": "Coze", "alias": ["扣子"], "company": "字节跳动", "priority": "medium" },
+        { "name": "Ollama", "alias": [], "company": "Ollama", "priority": "medium" },
+        { "name": "vLLM", "alias": [], "company": "vLLM", "priority": "low" }
+      ]
+    },
+
+    "ai_hardware": {
+      "description": "AI 硬件",
+      "products": [
+        { "name": "NVIDIA B200", "alias": ["B200", "Blackwell"], "company": "NVIDIA", "priority": "high" },
+        { "name": "NVIDIA H100", "alias": ["H100", "H200"], "company": "NVIDIA", "priority": "medium" },
+        { "name": "AMD MI300X", "alias": ["MI300", "MI350"], "company": "AMD", "priority": "medium" },
+        { "name": "Apple M4", "alias": ["M4 Ultra", "M4 Max"], "company": "Apple", "priority": "medium" },
+        { "name": "Groq LPU", "alias": ["Groq"], "company": "Groq", "priority": "medium" },
+        { "name": "Google TPU", "alias": ["TPU v6"], "company": "Google", "priority": "medium" }
+      ]
+    },
+
+    "ecom_ai_tools": {
+      "description": "跨境电商 AI 工具",
+      "products": [
+        { "name": "Amazon Rufus", "alias": ["Rufus"], "company": "Amazon", "priority": "high" },
+        { "name": "Amazon AI Listing", "alias": [], "company": "Amazon", "priority": "high" },
+        { "name": "Shopify Magic", "alias": ["Sidekick"], "company": "Shopify", "priority": "medium" },
+        { "name": "TikTok Shop AI", "alias": [], "company": "TikTok", "priority": "high" },
+        { "name": "Jasper AI", "alias": ["Jasper"], "company": "Jasper", "priority": "low" },
+        { "name": "AdCreative.ai", "alias": [], "company": "AdCreative", "priority": "low" }
+      ]
+    }
+  },
+
+  "industry_tags": {
+    "description": "行业标签 - 按行业分类的关注领域",
+
+    "primary": [
+      {
+        "id": "ai_core",
+        "name": "AI 核心技术",
+        "priority": "critical",
+        "sub_tags": [
+          "大语言模型 (LLM)",
+          "多模态 AI",
+          "AI Agent",
+          "AI 安全/对齐",
+          "强化学习 (RLHF/RLAIF)",
+          "推理优化",
+          "模型压缩/量化",
+          "RAG (检索增强生成)",
+          "微调 (Fine-tuning)",
+          "Prompt Engineering"
+        ]
+      },
+      {
+        "id": "ai_dev",
+        "name": "AI 开发工具",
+        "priority": "high",
+        "sub_tags": [
+          "AI 编程/代码生成",
+          "AI IDE/编辑器",
+          "AI 测试/调试",
+          "AI DevOps",
+          "AI 低代码/无代码"
+        ]
+      },
+      {
+        "id": "cross_border_ecom",
+        "name": "跨境电商",
+        "priority": "high",
+        "sub_tags": [
+          "亚马逊运营",
+          "TikTok Shop",
+          "Temu / SHEIN",
+          "独立站 (Shopify)",
+          "AI 选品",
+          "AI 广告投放",
+          "AI 客服翻译",
+          "供应链优化",
+          "AI listing 优化"
+        ]
+      },
+      {
+        "id": "new_media",
+        "name": "新媒体",
+        "priority": "high",
+        "sub_tags": [
+          "短视频创作 (抖音/TikTok/YouTube)",
+          "直播电商",
+          "AI 内容创作",
+          "社交媒体运营",
+          "KOL/网红营销",
+          "SEO/SEM",
+          "AI 视频生成",
+          "AI 图片生成",
+          "虚拟主播/数字人"
+        ]
+      }
+    ],
+
+    "secondary": [
+      {
+        "id": "ai_business",
+        "name": "AI 商业影响",
+        "priority": "medium",
+        "sub_tags": [
+          "企业 AI 转型",
+          "AI 创业/融资",
+          "AI 替代就业",
+          "AI 商业模式",
+          "AI 投资趋势"
+        ]
+      },
+      {
+        "id": "high_tech",
+        "name": "高科技软硬件",
+        "priority": "medium",
+        "sub_tags": [
+          "AI 芯片/GPU",
+          "云计算/AI 基础设施",
+          "边缘计算/端侧 AI",
+          "AR/VR/空间计算",
+          "消费电子 AI"
+        ]
+      },
+      {
+        "id": "ai_search",
+        "name": "AI 搜索",
+        "priority": "medium",
+        "sub_tags": [
+          "AI 搜索引擎",
+          "知识问答",
+          "信息检索"
+        ]
+      },
+      {
+        "id": "ai_education",
+        "name": "AI 教育",
+        "priority": "low",
+        "sub_tags": [
+          "AI 学习工具",
+          "AI 教学辅助",
+          "AI 技能培训"
+        ]
+      }
+    ]
+  },
+
+  "company_tags": {
+    "description": "关注公司标签",
+
+    "tier1_critical": {
+      "description": "核心关注 - 任何动态都需跟踪",
+      "companies": [
+        { "id": "openai", "name": "OpenAI", "alias": [], "products": ["GPT", "DALL-E", "Sora", "ChatGPT", "o1", "o3"], "focus": ["AGI", "多模态", "AI安全"] },
+        { "id": "anthropic", "name": "Anthropic", "alias": [], "products": ["Claude", "Claude Code", "MCP"], "focus": ["AI安全", "宪法AI", "长文本"] },
+        { "id": "cursor_inc", "name": "Anysphere (Cursor)", "alias": ["Cursor"], "products": ["Cursor"], "focus": ["AI编程", "代码编辑器"] }
+      ]
+    },
+
+    "tier2_high": {
+      "description": "重点关注 - 重大动态需跟踪",
+      "companies": [
+        { "id": "google_ai", "name": "Google / DeepMind", "alias": ["谷歌"], "products": ["Gemini", "Gemma", "NotebookLM", "AlphaFold"], "focus": ["搜索AI", "科学AI"] },
+        { "id": "nvidia", "name": "NVIDIA", "alias": ["英伟达"], "products": ["H100", "B200", "CUDA", "NIM"], "focus": ["AI芯片", "推理加速"] },
+        { "id": "microsoft", "name": "Microsoft", "alias": ["微软"], "products": ["Copilot", "Azure AI", "Phi"], "focus": ["企业AI", "开发者工具"] },
+        { "id": "meta_ai", "name": "Meta AI", "alias": [], "products": ["LLaMA", "SAM"], "focus": ["开源AI", "计算机视觉"] },
+        { "id": "deepseek", "name": "深度求索 (DeepSeek)", "alias": ["DeepSeek"], "products": ["DeepSeek-V3", "DeepSeek-R1"], "focus": ["开源大模型", "推理模型"] },
+        { "id": "openclaw", "name": "OpenClaw", "alias": [], "products": ["OpenClaw"], "focus": ["开源AI工具"] }
+      ]
+    },
+
+    "tier3_medium": {
+      "description": "常规关注 - 选择性跟踪",
+      "companies": [
+        { "id": "apple", "name": "Apple", "alias": ["苹果"], "products": ["Apple Intelligence", "M4"], "focus": ["端侧AI"] },
+        { "id": "xai", "name": "xAI", "alias": [], "products": ["Grok"], "focus": ["通用AI"] },
+        { "id": "mistral", "name": "Mistral AI", "alias": [], "products": ["Mistral", "Mixtral"], "focus": ["开源欧洲AI"] },
+        { "id": "perplexity", "name": "Perplexity AI", "alias": [], "products": ["Perplexity"], "focus": ["AI搜索"] },
+
+        { "id": "alibaba_ai", "name": "阿里巴巴 (通义)", "alias": ["阿里", "通义"], "products": ["通义千问", "Qwen"], "focus": ["开源大模型", "电商AI"] },
+        { "id": "bytedance_ai", "name": "字节跳动", "alias": ["字节", "ByteDance"], "products": ["豆包", "扣子"], "focus": ["AI应用", "视频AI"] },
+        { "id": "moonshot", "name": "月之暗面", "alias": ["Moonshot AI"], "products": ["Kimi"], "focus": ["长文本", "AI搜索"] },
+        { "id": "zhipu", "name": "智谱 AI", "alias": ["Zhipu"], "products": ["GLM-4", "CogVideo"], "focus": ["大模型", "AI Agent"] },
+        { "id": "baidu", "name": "百度", "alias": ["Baidu"], "products": ["文心一言"], "focus": ["大模型", "搜索AI"] },
+
+        { "id": "amazon", "name": "Amazon", "alias": ["亚马逊"], "products": ["Rufus", "AI Listing", "Bedrock"], "focus": ["电商AI", "云AI"] },
+        { "id": "shopify", "name": "Shopify", "alias": [], "products": ["Magic", "Sidekick"], "focus": ["独立站AI"] },
+        { "id": "tiktok_shop", "name": "TikTok Shop", "alias": ["TK Shop"], "products": ["Shop AI"], "focus": ["社交电商"] }
+      ]
+    }
+  },
+
+  "matching_rules": {
+    "description": "标签匹配规则 - 用于判断新闻与关注领域的相关度",
+
+    "scoring": {
+      "person_match": {
+        "critical_person": 5,
+        "high_person": 3,
+        "medium_person": 2,
+        "low_person": 1
+      },
+      "product_match": {
+        "critical_product": 5,
+        "high_product": 3,
+        "medium_product": 2,
+        "low_product": 1
+      },
+      "industry_match": {
+        "primary_industry": 4,
+        "secondary_industry": 2
+      },
+      "company_match": {
+        "tier1_company": 5,
+        "tier2_company": 3,
+        "tier3_company": 2
+      }
+    },
+
+    "threshold": {
+      "create_task": 3,
+      "high_priority_task": 8,
+      "critical_task": 12
+    },
+
+    "notes": "最终相关度分数 = person_match + product_match + industry_match + company_match。分数 >= 3 创建任务，>= 8 高优先级，>= 12 关键任务。"
+  }
+}

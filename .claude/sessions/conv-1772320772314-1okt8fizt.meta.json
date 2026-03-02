@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772320772314-1okt8fizt",
+  "title": "项目最新进展，我现在正确到展示去项目支援试用，我想利用这段按时间表现争取加薪。帮我更新目标和任务。大...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772320772314,
+  "updatedAt": 1772349340164,
+  "lastResponseAt": 1772321064604,
+  "sessionId": "b2db3736-e9ee-4caa-b77e-7566eb4106dc",
+  "sdkSessionId": "b2db3736-e9ee-4caa-b77e-7566eb4106dc",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 42001,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 42001,
+    "percentage": 21
+  }
+}

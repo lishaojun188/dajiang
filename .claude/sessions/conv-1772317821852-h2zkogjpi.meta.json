@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772317821852-h2zkogjpi",
+  "title": "section 专业技术与事业 | Career  分栏用项目名称分栏",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772317821852,
+  "updatedAt": 1772318693441,
+  "lastResponseAt": 1772317981314,
+  "sessionId": "e524e7f2-12d8-4564-b4ad-bf25cef0da62",
+  "sdkSessionId": "e524e7f2-12d8-4564-b4ad-bf25cef0da62",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 45231,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 45231,
+    "percentage": 23
+  }
+}

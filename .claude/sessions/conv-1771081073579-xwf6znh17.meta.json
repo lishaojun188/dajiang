@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771081073579-xwf6znh17",
+  "title": "不一定是离职，有可能是轮岗，借调去项目上工作。 项目描述不要那么绝对。可以定义工作调整。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771081073579,
+  "updatedAt": 1771081351937,
+  "lastResponseAt": 1771081182162,
+  "sessionId": "2c449da7-0104-4795-bbcb-014c29492dfd",
+  "sdkSessionId": "2c449da7-0104-4795-bbcb-014c29492dfd",
+  "currentNote": "Alex/人生红点/02 项目树/2026年项目.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 32474,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 32474,
+    "percentage": 16
+  }
+}

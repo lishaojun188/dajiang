@@ -1,0 +1,20 @@
+{
+  "id": "conv-1772349431150-1e9lrqoxe",
+  "title": "@DJI HR/02-需求管理/需求池管理/架构图交互功能迭代计划",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772349431150,
+  "updatedAt": 1772415284908,
+  "lastResponseAt": 1772349547124,
+  "sessionId": "1307f6cb-d142-4fd7-a046-0ab91e9709a1",
+  "sdkSessionId": "1307f6cb-d142-4fd7-a046-0ab91e9709a1",
+  "currentNote": "DJI HR/02-需求管理/需求池管理/需求池.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 33132,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 33132,
+    "percentage": 17
+  }
+}

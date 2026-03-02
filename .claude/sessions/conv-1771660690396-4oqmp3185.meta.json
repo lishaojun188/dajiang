@@ -1,0 +1,19 @@
+{
+  "id": "conv-1771660690396-4oqmp3185",
+  "title": "**私聊原领导：** 传递“大疆非我不可”信号，拦截绩效C。 | 建立“战略抽调”身份，阻断HR裁员...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771660690398,
+  "updatedAt": 1771836122724,
+  "lastResponseAt": 1771660791667,
+  "sessionId": "07eaedb2-1346-4cc8-8857-0da48b629241",
+  "sdkSessionId": "07eaedb2-1346-4cc8-8857-0da48b629241",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 27244,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 27244,
+    "percentage": 14
+  }
+}

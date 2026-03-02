@@ -1,0 +1,19 @@
+{
+  "id": "conv-1771038964683-87n3ky8mh",
+  "title": "今年34岁了，建立一个2026年的年度目标",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771038964683,
+  "updatedAt": 1771513746477,
+  "lastResponseAt": 1771051626365,
+  "sessionId": "65b1f3f5-93c3-461e-9a9a-4373e1f8fea7",
+  "sdkSessionId": "65b1f3f5-93c3-461e-9a9a-4373e1f8fea7",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 75102,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 75102,
+    "percentage": 38
+  }
+}

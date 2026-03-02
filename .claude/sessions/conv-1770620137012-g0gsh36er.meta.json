@@ -1,0 +1,20 @@
+{
+  "id": "conv-1770620137012-g0gsh36er",
+  "title": "1",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1770620137013,
+  "updatedAt": 1770625640623,
+  "lastResponseAt": 1770625640623,
+  "sessionId": null,
+  "sdkSessionId": "c589ed45-e695-49c0-9a0c-5cdfd7d11adc",
+  "currentNote": "00 Bav 产品发展战略规划/03.1 广告投放计划.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

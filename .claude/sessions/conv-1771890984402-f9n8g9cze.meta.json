@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771890984402-f9n8g9cze",
+  "title": "### **2022",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771890984402,
+  "updatedAt": 1771897573587,
+  "lastResponseAt": 1771897573587,
+  "sessionId": "6d7cf549-80c5-40e1-8570-a90055d98c27",
+  "sdkSessionId": "6d7cf549-80c5-40e1-8570-a90055d98c27",
+  "currentNote": "Alex/人生红点/02 项目树/项目文件清单/项目0_主业工作调整/面试简历/大疆版本/面试项目经历 1.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 27496,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 27496,
+    "percentage": 14
+  }
+}

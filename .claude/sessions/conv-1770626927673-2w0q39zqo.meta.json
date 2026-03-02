@@ -1,0 +1,19 @@
+{
+  "id": "conv-1770626927673-2w0q39zqo",
+  "title": "zaima",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1770626927673,
+  "updatedAt": 1771038348267,
+  "lastResponseAt": 1771038312341,
+  "sessionId": "ab01f073-f61a-4ae7-a1c4-b05acbe7044a",
+  "sdkSessionId": "ab01f073-f61a-4ae7-a1c4-b05acbe7044a",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 16986,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 16986,
+    "percentage": 8
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "content": "Test integration from: OpenAI Releases GPT-5.3 Codex with Nativ... | Test the API/SDK integration mentioned. Write sample code to understand implementation complexity.",
+    "status": "pending",
+    "priority": "low",
+    "category": "testing",
+    "estimated_time": "2-3 hours",
+    "source": "OpenAI Releases GPT-5.3 Codex with Native macOS App"
+  },
+  {
+    "content": "Research market: Anthropic Raises Series F to $20B at $350B Valuation | Investigate the market context around this funding/investment. Analyze competitive landscape and market trends.",
+    "status": "pending",
+    "priority": "low",
+    "category": "research",
+    "estimated_time": "2-3 hours",
+    "source": "Anthropic Raises Series F to $20B at $350B Valuation"
+  }
+]

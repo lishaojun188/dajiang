@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771199557635-1pd38twnj",
+  "title": "在每个任务标题后面 和每个项目概览之间最好可以创建双向连接。例如 @Alex/人生红点/03 任务树...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771199557646,
+  "updatedAt": 1771499736357,
+  "lastResponseAt": 1771200541226,
+  "sessionId": "a8672a60-3b0b-4360-aaab-49c5ec21090d",
+  "sdkSessionId": "a8672a60-3b0b-4360-aaab-49c5ec21090d",
+  "currentNote": "Alex/人生红点/02 项目树/项目文件清单/项目0_主业工作调整/00 项目概览.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 50752,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 50752,
+    "percentage": 25
+  }
+}

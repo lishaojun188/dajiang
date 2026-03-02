@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771911319273-r8fgakth5",
+  "title": "项目背景： 在企业内部孵化创新业务时，优先激活现有人力资本、其次才引入外部人才，已成为普 遍且经济的...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771911319273,
+  "updatedAt": 1771930948367,
+  "lastResponseAt": 1771911743822,
+  "sessionId": "f6e9faef-f761-40f5-b908-b178ee0da6f1",
+  "sdkSessionId": "f6e9faef-f761-40f5-b908-b178ee0da6f1",
+  "currentNote": "Alex/人生红点/02 项目树/项目文件清单/项目0_主业工作调整/面试简历/面试项目经历.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 46712,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 46712,
+    "percentage": 23
+  }
+}

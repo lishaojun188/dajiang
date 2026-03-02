@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772276351198-l9dr8tqre",
+  "title": "每天都要安排去大疆的任务，他们主要是人才发展的项目，周四早上安排了公司体检",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772276351199,
+  "updatedAt": 1772276476337,
+  "lastResponseAt": 1772276476337,
+  "sessionId": "e9c9f572-f813-4a55-a4d5-12c20ec9de1a",
+  "sdkSessionId": "e9c9f572-f813-4a55-a4d5-12c20ec9de1a",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 31793,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 31793,
+    "percentage": 16
+  }
+}

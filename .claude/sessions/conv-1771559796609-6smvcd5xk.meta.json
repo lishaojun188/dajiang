@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771559796609-6smvcd5xk",
+  "title": "项目分解下任务及完成情况的树状图 用 canvas文件，放在项目树目录下",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771559796609,
+  "updatedAt": 1771599762202,
+  "lastResponseAt": 1771560301315,
+  "sessionId": "74b61b14-8a51-429d-bb48-ace7d8aa3e6c",
+  "sdkSessionId": "74b61b14-8a51-429d-bb48-ace7d8aa3e6c",
+  "currentNote": "Alex/人生红点/02 项目树/2026年项目.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 74200,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 74200,
+    "percentage": 37
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772418375857-gt9hfksvt",
+  "title": "@DJI HR/02-需求管理/高级需求文档/组织架构图/00 组织架构地图模块PRD",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772418375858,
+  "updatedAt": 1772421722544,
+  "lastResponseAt": 1772421722544,
+  "sessionId": "6f236d97-ed8c-4759-ad0e-064054b8b9e4",
+  "sdkSessionId": "6f236d97-ed8c-4759-ad0e-064054b8b9e4",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 41546,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 41546,
+    "percentage": 21
+  }
+}

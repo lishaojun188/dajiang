@@ -1,0 +1,20 @@
+{
+  "id": "conv-1772319831146-q7443hqcb",
+  "title": "一个项目不应该有都多个任务吗？都展示出来",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772319831146,
+  "updatedAt": 1772320249859,
+  "lastResponseAt": 1772319975021,
+  "sessionId": "9df63a80-a3aa-4497-9459-b012c912c1d2",
+  "sdkSessionId": "9df63a80-a3aa-4497-9459-b012c912c1d2",
+  "currentNote": "Alex/人生红点/03 任务树/tasks/2026-03-甘特图.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 35419,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 35419,
+    "percentage": 18
+  }
+}

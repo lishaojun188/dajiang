@@ -1,0 +1,19 @@
+{
+  "id": "conv-1771038425444-iryitpxeu",
+  "title": "@Alex/人生红点/人生目标树/十年度目标",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771038425445,
+  "updatedAt": 1771042552128,
+  "lastResponseAt": 1771038550681,
+  "sessionId": null,
+  "currentNote": "Alex/人生红点/人生目标树/五年度目标.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 25898,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 25898,
+    "percentage": 13
+  }
+}

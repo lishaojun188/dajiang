@@ -1,0 +1,47 @@
+# ignore everything by default
+/*
+
+# but keep this .gitignore itself
+# !.gitignore/*
+!.gitignore
+
+# 唯独保留 DJI HR 文件夹
+!/DJI HR/
+
+# # allow only these folders and all their contents
+# !banana_vpn_pro/
+# !banana_vpn_pro/**
+
+# !00 Bav 产品发展战略规划/
+# !00 Bav 产品发展战略规划/**
+
+# !02 banana_vpn_prd/
+# !02 banana_vpn_prd/**
+
+
+
+# # Ignore prd templates
+# 02 banana_vpn_prd/prd模板/
+
+# # Allow 03运营规划/渠道素材
+# !03运营规划/
+# 03运营规划/*
+# !03运营规划/渠道素材/
+# !03运营规划/渠道素材/**
+
+# # --- 新增：允许 Alex 文件夹 ---
+# !Alex/
+# !Alex/**
+
+# # --- 新增：允许 DJI HR 文件夹 ---
+# !DJI HR/
+# !DJI HR/**
+
+# *.mov
+# *.mp4
+
+
+# --- 新增：允许.claude 文件夹 ---
+!.claude/
+!.claude/**
+

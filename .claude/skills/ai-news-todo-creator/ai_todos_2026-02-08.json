@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Analyze business impact: Claude 4.0: Anthropic's Answer to Enterprise AI De...",
+    "description": "Write a brief analysis of how this development affects the AI industry and potential business opportunities it creates.",
+    "category": "reflection",
+    "priority": "Low",
+    "estimated_time": "1-2 hours",
+    "source_news": "Claude 4.0: Anthropic's Answer to Enterprise AI Demand",
+    "created_date": "2026-02-08"
+  },
+  {
+    "title": "Research market: AI Hardware Startup Raises $500M for Novel Chip Design",
+    "description": "Investigate the market context around this funding/investment. Analyze competitive landscape and market trends.",
+    "category": "research",
+    "priority": "Low",
+    "estimated_time": "2-3 hours",
+    "source_news": "AI Hardware Startup Raises $500M for Novel Chip Design",
+    "created_date": "2026-02-08"
+  }
+]

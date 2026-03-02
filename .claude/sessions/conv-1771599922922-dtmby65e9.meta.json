@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771599922922-dtmby65e9",
+  "title": "补充任务。送财神，下午打牌、交老婆打闽南牌。晚上看镖人 圆圆、我、小贝、二姐。晚上和几个小朋友放烟花...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771599922922,
+  "updatedAt": 1771836123916,
+  "lastResponseAt": 1771599975929,
+  "sessionId": "08417b7a-3944-40a2-b4e9-377e4b17bd12",
+  "sdkSessionId": "08417b7a-3944-40a2-b4e9-377e4b17bd12",
+  "currentNote": "Alex/人生红点/03 任务树/weekly/2026-W08.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 22518,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 22518,
+    "percentage": 11
+  }
+}

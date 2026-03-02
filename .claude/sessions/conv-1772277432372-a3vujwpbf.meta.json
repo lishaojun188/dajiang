@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772277432372-a3vujwpbf",
+  "title": "把每个任务的开始结束时间设计好，不然甘特图都是整个月的",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772277432372,
+  "updatedAt": 1772319794373,
+  "lastResponseAt": 1772277618555,
+  "sessionId": "2f7fdfc0-ec31-4ba3-9ded-5c3aa2cf00db",
+  "sdkSessionId": "2f7fdfc0-ec31-4ba3-9ded-5c3aa2cf00db",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 36286,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 36286,
+    "percentage": 18
+  }
+}

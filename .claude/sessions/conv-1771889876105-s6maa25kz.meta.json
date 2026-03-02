@@ -1,0 +1,19 @@
+{
+  "id": "conv-1771889876105-s6maa25kz",
+  "title": "### **2018",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771889876105,
+  "updatedAt": 1771897574605,
+  "lastResponseAt": 1771889915364,
+  "sessionId": "34dbfb77-f1e2-42ff-810e-4c4c290162aa",
+  "sdkSessionId": "34dbfb77-f1e2-42ff-810e-4c4c290162aa",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 22256,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 22256,
+    "percentage": 11
+  }
+}

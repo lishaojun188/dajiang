@@ -1,0 +1,19 @@
+{
+  "id": "conv-1771500022673-19oyycg3j",
+  "title": "@Alex/人生红点/03 任务树/任务存储架构方案",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771500022679,
+  "updatedAt": 1772317697108,
+  "lastResponseAt": 1771836149708,
+  "sessionId": "3ef40904-531d-4335-8bd0-3b928d5e6db5",
+  "sdkSessionId": "3ef40904-531d-4335-8bd0-3b928d5e6db5",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 47418,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 47418,
+    "percentage": 24
+  }
+}

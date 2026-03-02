@@ -1,0 +1,20 @@
+{
+  "id": "conv-1772003060845-u0ix6qvd6",
+  "title": "输出单店运营的 sop",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772003060845,
+  "updatedAt": 1772003318092,
+  "lastResponseAt": 1772003196540,
+  "sessionId": "5a198426-e3a6-4682-b316-59596d351f95",
+  "sdkSessionId": "5a198426-e3a6-4682-b316-59596d351f95",
+  "currentNote": "Alex/人生红点/02 项目树/项目文件清单/项目5_跨境电商启动/SOP/【单店】运营sop.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 23013,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 23013,
+    "percentage": 12
+  }
+}

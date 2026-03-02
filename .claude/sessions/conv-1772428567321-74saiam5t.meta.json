@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772428567321-74saiam5t",
+  "title": "组织派兵布阵沙盘，可以通过组织结构图查看组织间的关系",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772428567321,
+  "updatedAt": 1772431994725,
+  "lastResponseAt": 1772430266665,
+  "sessionId": "ad406587-d4e1-4645-b7bf-41e93ebe6ce1",
+  "sdkSessionId": "ad406587-d4e1-4645-b7bf-41e93ebe6ce1",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 108322,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 108322,
+    "percentage": 54
+  }
+}

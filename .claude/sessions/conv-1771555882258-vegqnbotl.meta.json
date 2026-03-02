@@ -1,0 +1,19 @@
+{
+  "id": "conv-1771555882258-vegqnbotl",
+  "title": "帮我构建一科目标树 从终极目标开始",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771555882258,
+  "updatedAt": 1771557197512,
+  "lastResponseAt": 1771556962429,
+  "sessionId": "ccf0790d-9ca5-4b40-b8c6-314e0484a2a4",
+  "sdkSessionId": "ccf0790d-9ca5-4b40-b8c6-314e0484a2a4",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 67088,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 67088,
+    "percentage": 34
+  }
+}

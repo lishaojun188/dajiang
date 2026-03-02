@@ -1,0 +1,20 @@
+{
+  "id": "conv-1772415634872-qqw2qq4pz",
+  "title": "@Alex/人生红点/02 项目树/项目文件清单/项目5_跨境电商启动/项目概览",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772415634872,
+  "updatedAt": 1772415800368,
+  "lastResponseAt": 1772415680967,
+  "sessionId": "23d8b9d4-b280-4911-aba3-d3448c571c07",
+  "sdkSessionId": "23d8b9d4-b280-4911-aba3-d3448c571c07",
+  "currentNote": "Alex/人生红点/02 项目树/项目文件清单/项目5_跨境电商启动/项目概览.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 22745,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 22745,
+    "percentage": 11
+  }
+}

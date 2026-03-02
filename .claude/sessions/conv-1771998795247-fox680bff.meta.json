@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771998795247-fox680bff",
+  "title": "海信项目",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771998795247,
+  "updatedAt": 1772001846975,
+  "lastResponseAt": 1771999343364,
+  "sessionId": "7df24ba5-2719-4528-982f-5ddbb49ea6bc",
+  "sdkSessionId": "7df24ba5-2719-4528-982f-5ddbb49ea6bc",
+  "currentNote": "Alex/人生红点/02 项目树/项目文件清单/项目0_主业工作调整/面试简历/大疆版本/面试项目经历 1.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 31823,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 31823,
+    "percentage": 16
+  }
+}

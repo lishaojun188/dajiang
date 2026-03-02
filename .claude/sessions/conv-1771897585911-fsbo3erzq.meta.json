@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771897585911-fsbo3erzq",
+  "title": "专业技能",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771897585911,
+  "updatedAt": 1771898546927,
+  "lastResponseAt": 1771897640844,
+  "sessionId": "0787185e-a648-4663-b618-2db0cc08f3f6",
+  "sdkSessionId": "0787185e-a648-4663-b618-2db0cc08f3f6",
+  "currentNote": "Alex/人生红点/02 项目树/项目文件清单/项目0_主业工作调整/面试简历/大疆版本/简历基础版本20160223 1.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 22661,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 22661,
+    "percentage": 11
+  }
+}

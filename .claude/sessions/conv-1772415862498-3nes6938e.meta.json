@@ -1,0 +1,18 @@
+{
+  "id": "conv-1772415862498-3nes6938e",
+  "title": "我去年个税拿到的全年工资是35",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772415862498,
+  "updatedAt": 1772418322434,
+  "lastResponseAt": 1772415998296,
+  "sessionId": null,
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 34607,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 34607,
+    "percentage": 17
+  }
+}

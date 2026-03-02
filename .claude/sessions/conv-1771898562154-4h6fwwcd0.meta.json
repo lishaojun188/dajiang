@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771898562154-4h6fwwcd0",
+  "title": "象屿集团主要写绩效和人才模块",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771898562154,
+  "updatedAt": 1771911287774,
+  "lastResponseAt": 1771899079162,
+  "sessionId": "15a79008-c6cc-4214-b0fe-02f604bbc7ac",
+  "sdkSessionId": "15a79008-c6cc-4214-b0fe-02f604bbc7ac",
+  "currentNote": "Alex/人生红点/02 项目树/项目文件清单/项目0_主业工作调整/面试简历/大疆版本/面试项目经历 1.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 26104,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 26104,
+    "percentage": 13
+  }
+}

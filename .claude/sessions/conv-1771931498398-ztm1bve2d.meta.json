@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771931498398-ztm1bve2d",
+  "title": "整理下这个文档",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771931498398,
+  "updatedAt": 1771997245522,
+  "lastResponseAt": 1771931620513,
+  "sessionId": "3e8878c0-8f6c-4a45-b7e3-628ecef927a9",
+  "sdkSessionId": "3e8878c0-8f6c-4a45-b7e3-628ecef927a9",
+  "currentNote": "Alex/人生红点/02 项目树/项目文件清单/项目5_跨境电商启动/项目概览 copy.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 45972,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 45972,
+    "percentage": 23
+  }
+}

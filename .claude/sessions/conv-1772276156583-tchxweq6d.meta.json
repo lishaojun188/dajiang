@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772276156583-tchxweq6d",
+  "title": "3月任务做一个甘特图直观查看每个任务时间安排",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772276156583,
+  "updatedAt": 1772318884345,
+  "lastResponseAt": 1772318884345,
+  "sessionId": "b243846e-186d-4a77-a202-a413fbc44e24",
+  "sdkSessionId": "b243846e-186d-4a77-a202-a413fbc44e24",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 29974,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 29974,
+    "percentage": 15
+  }
+}

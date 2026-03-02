@@ -1,0 +1,217 @@
+{
+  "schema_version": "2.0",
+  "description": "Enhanced Daily News Report cache with performance metrics and adaptive tracking",
+
+  "last_run": {
+    "date": "2026-02-08",
+    "start_time": "2026-02-08T09:30:00Z",
+    "end_time": "2026-02-08T09:32:00Z",
+    "duration_seconds": 120,
+    "total_items_seen": 45,
+    "items_collected": 20,
+    "items_published": 20,
+    "quality_distribution": {
+      "5_star": 8,
+      "4_star": 10,
+      "3_star": 2
+    },
+    "sources_used": ["hn", "hf_papers", "one_useful_thing"],
+    "execution_mode": "parallel",
+    "errors_encountered": 0
+  },
+
+  "performance_metrics": {
+    "_comment": "Performance tracking for optimization",
+    "memory_peak_mb": 128,
+    "network_requests": 15,
+    "total_data_transferred_mb": 2.4,
+    "cache_hits": 0,
+    "cache_misses": 45
+  },
+
+  "source_stats": {
+    "_comment": "Comprehensive source performance tracking",
+    "hn": {
+      "fetch_history": [
+        {
+          "date": "2026-02-08",
+          "start_time": "09:30:10Z",
+          "duration_ms": 1500,
+          "status": "success",
+          "items_extracted": 15,
+          "items_qualified": 8,
+          "avg_quality": 4.5,
+          "errors": [],
+          "response_size_bytes": 45000
+        }
+      ],
+      "rolling_stats": {
+        "total_attempts": 10,
+        "success_count": 9,
+        "fail_count": 1,
+        "success_rate": 0.90,
+        "avg_duration_ms": 1450,
+        "avg_items_per_fetch": 12.5,
+        "avg_quality_score": 4.4,
+        "std_quality_score": 0.3,
+        "last_7_days": {
+          "attempts": 7,
+          "success_rate": 0.95,
+          "avg_quality": 4.5
+        }
+      },
+      "circuit_breaker": {
+        "status": "closed",
+        "consecutive_failures": 0,
+        "last_failure_time": null,
+        "next_retry_time": null
+      }
+    },
+    "hf_papers": {
+      "fetch_history": [
+        {
+          "date": "2026-02-08",
+          "start_time": "09:30:15Z",
+          "duration_ms": 2300,
+          "status": "success",
+          "items_extracted": 12,
+          "items_qualified": 7,
+          "avg_quality": 4.8,
+          "errors": [],
+          "response_size_bytes": 125000
+        }
+      ],
+      "rolling_stats": {
+        "total_attempts": 10,
+        "success_count": 10,
+        "fail_count": 0,
+        "success_rate": 1.00,
+        "avg_duration_ms": 2100,
+        "avg_items_per_fetch": 11.0,
+        "avg_quality_score": 4.8,
+        "std_quality_score": 0.1,
+        "last_7_days": {
+          "attempts": 7,
+          "success_rate": 1.00,
+          "avg_quality": 4.8
+        }
+      },
+      "circuit_breaker": {
+        "status": "closed",
+        "consecutive_failures": 0,
+        "last_failure_time": null,
+        "next_retry_time": null
+      }
+    }
+  },
+
+  "adaptive_thresholds": {
+    "_comment": "Dynamic thresholds based on historical performance",
+    "current_config": {
+      "min_items_target": 20,
+      "max_items_target": 25,
+      "min_quality_threshold": 3.5,
+      "early_stop_threshold": 22,
+      "confidence_required": 0.8
+    },
+    "adjustment_rules": {
+      "low_content_days": {
+        "trigger": "items_per_source < 5",
+        "action": "reduce_quality_threshold_by_0.5",
+        "max_consecutive": 3
+      },
+      "high_quality_days": {
+        "trigger": "avg_quality > 4.5 AND items > 20",
+        "action": "increase_quality_threshold_by_0.2"
+      },
+      "poor_source_performance": {
+        "trigger": "success_rate < 0.7",
+        "action": "reduce_source_priority",
+        "recovery_condition": "success_rate > 0.8_for_3_attempts"
+      }
+    }
+  },
+
+  "url_cache": {
+    "_comment": "URL-based deduplication with content fingerprints",
+    "_ttl_hours": 168,
+    "entries": {
+      "https://example.com/article1": {
+        "date_added": "2026-02-08",
+        "content_hash": "sha256:abc123...",
+        "first_seen_title": "Original Title",
+        "last_validated": "2026-02-08"
+      }
+    }
+  },
+
+  "content_fingerprints": {
+    "_comment": "Semantic deduplication using content hashes",
+    "_ttl_hours": 168,
+    "fingerprints": {
+      "sha256:abc123...": {
+        "urls": ["https://example.com/article1"],
+        "title_similarity": 0.95,
+        "first_seen": "2026-02-08",
+        "last_seen": "2026-02-08",
+        "seen_count": 1
+      }
+    }
+  },
+
+  "quality_metrics": {
+    "_comment": "Rolling quality metrics for intelligent filtering",
+    "daily_averages": {
+      "2026-02-08": {
+        "avg_quality": 4.4,
+        "std_quality": 0.5,
+        "items_by_quality": {
+          "5": 8,
+          "4": 10,
+          "3": 2
+        }
+      }
+    },
+    "source_quality_trends": {
+      "hn": {
+        "7_day_avg": 4.5,
+        "30_day_avg": 4.3,
+        "trend": "stable",
+        "volatility": 0.2
+      }
+    }
+  },
+
+  "error_tracking": {
+    "_comment": "Error patterns for predictive retry",
+    "recent_errors": [
+      {
+        "timestamp": "2026-02-08T09:30:20Z",
+        "source": "product_hunt",
+        "error_type": "timeout",
+        "error_message": "Request timeout after 30s",
+        "retry_attempts": 2,
+        "final_status": "failed"
+      }
+    ],
+    "error_stats": {
+      "timeout": {
+        "count_7d": 3,
+        "sources_affected": ["product_hunt", "latent_space"]
+      },
+      "rate_limit": {
+        "count_7d": 0,
+        "sources_affected": []
+      }
+    }
+  },
+
+  "optimization_hints": {
+    "_comment": "Hints for next run optimization",
+    "priority_sources": ["hf_papers", "hn", "one_useful_thing"],
+    "skip_sources": [],
+    "retry_sources": ["product_hunt"],
+    "suggested_batch_size": 3,
+    "recommended_timeout": 25000
+  }
+}

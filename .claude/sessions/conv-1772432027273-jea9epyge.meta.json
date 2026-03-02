@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772432027273-jea9epyge",
+  "title": "@Alex/人生红点/02 项目树/项目文件清单/项目18_心咖啡/运营计划",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772432027274,
+  "updatedAt": 1772436461884,
+  "lastResponseAt": 1772432350659,
+  "sessionId": "1e0e6bd4-b773-4711-9a9d-e5785983bf66",
+  "sdkSessionId": "1e0e6bd4-b773-4711-9a9d-e5785983bf66",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 40342,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 40342,
+    "percentage": 20
+  }
+}

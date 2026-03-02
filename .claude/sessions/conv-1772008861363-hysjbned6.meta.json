@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772008861363-hysjbned6",
+  "title": "太乱了 ，不直观，我想要那种可以给根据不同行业，从技术底层到应用层的分类，让我直观看到AI 应用的发...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772008861364,
+  "updatedAt": 1772009624111,
+  "lastResponseAt": 1772009282869,
+  "sessionId": "0aafc6e3-2ece-41a9-aaa8-6d95f58d7db9",
+  "sdkSessionId": "0aafc6e3-2ece-41a9-aaa8-6d95f58d7db9",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 58709,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 58709,
+    "percentage": 29
+  }
+}

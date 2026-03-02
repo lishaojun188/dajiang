@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772269924825-srudk03hg",
+  "title": "开始做下周的计划",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772269924826,
+  "updatedAt": 1772275359376,
+  "lastResponseAt": 1772270238036,
+  "sessionId": "a12f7efd-531d-4a43-8c13-0b00a23b4326",
+  "sdkSessionId": "a12f7efd-531d-4a43-8c13-0b00a23b4326",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 53725,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 53725,
+    "percentage": 27
+  }
+}

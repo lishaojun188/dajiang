@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771997273569-ycpacxy00",
+  "title": "3月26日和老婆去让日本旅游算哪个项目",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771997273569,
+  "updatedAt": 1772001847740,
+  "lastResponseAt": 1771997424716,
+  "sessionId": "035f04ee-68a7-4f4b-bd35-8f7c33f093e3",
+  "sdkSessionId": "035f04ee-68a7-4f4b-bd35-8f7c33f093e3",
+  "currentNote": "Alex/人生红点/02 项目树/2026年项目.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 41759,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 41759,
+    "percentage": 21
+  }
+}

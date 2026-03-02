@@ -1,0 +1,352 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-02-08",
+  "description": "国内平台数据源配置 | Domestic Chinese platform source configuration",
+
+  "sources": {
+    "tier1_articles": {
+      "description": "高质量 AI 科技媒体，优先抓取",
+      "sources": [
+        {
+          "id": "36kr_ai",
+          "name": "36氪 AI 频道",
+          "url": "https://36kr.com/information/AI",
+          "fetch_method": "webfetch",
+          "extract": "latest_10",
+          "enabled": true,
+          "avg_quality": 4.5,
+          "success_rate": 0.90,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["AI 行业报道", "融资新闻", "深度分析"]
+        },
+        {
+          "id": "jiqizhixin",
+          "name": "机器之心",
+          "url": "https://www.jiqizhixin.com",
+          "fetch_method": "webfetch",
+          "extract": "latest_10",
+          "enabled": true,
+          "avg_quality": 4.8,
+          "success_rate": 0.88,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["AI 论文解读", "技术深度", "产品评测"]
+        },
+        {
+          "id": "sspai",
+          "name": "少数派",
+          "url": "https://sspai.com",
+          "fetch_method": "webfetch",
+          "extract": "latest_5",
+          "enabled": true,
+          "avg_quality": 4.3,
+          "success_rate": 0.92,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["AI 工具评测", "效率提升", "工作流优化"]
+        }
+      ]
+    },
+
+    "tier2_articles": {
+      "description": "中等优先级科技媒体",
+      "sources": [
+        {
+          "id": "geekpark",
+          "name": "极客公园",
+          "url": "https://www.geekpark.net",
+          "fetch_method": "webfetch",
+          "extract": "latest_5",
+          "enabled": true,
+          "avg_quality": 4.2,
+          "success_rate": 0.85,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["AI 创业", "产品趋势"]
+        },
+        {
+          "id": "huxiu_ai",
+          "name": "虎嗅",
+          "url": "https://www.huxiu.com",
+          "fetch_method": "webfetch",
+          "extract": "latest_5",
+          "enabled": true,
+          "avg_quality": 4.0,
+          "success_rate": 0.87,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["AI 商业分析", "行业趋势"]
+        },
+        {
+          "id": "infoq_ai",
+          "name": "InfoQ AI 前线",
+          "url": "https://www.infoq.cn/topic/AI",
+          "fetch_method": "webfetch",
+          "extract": "latest_5",
+          "enabled": true,
+          "avg_quality": 4.4,
+          "success_rate": 0.83,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["AI 工程实践", "架构设计"]
+        },
+        {
+          "id": "leiphone_ai",
+          "name": "雷锋网 AI 科技评论",
+          "url": "https://www.leiphone.com",
+          "fetch_method": "webfetch",
+          "extract": "latest_5",
+          "enabled": true,
+          "avg_quality": 4.1,
+          "success_rate": 0.82,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["AI 学术", "产业报道"]
+        },
+        {
+          "id": "pingwest",
+          "name": "PingWest 品玩",
+          "url": "https://www.pingwest.com",
+          "fetch_method": "webfetch",
+          "extract": "latest_5",
+          "enabled": true,
+          "avg_quality": 3.9,
+          "success_rate": 0.85,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["中美科技", "AI 产品"]
+        }
+      ]
+    },
+
+    "tier2_developer": {
+      "description": "开发者社区",
+      "sources": [
+        {
+          "id": "oschina_ai",
+          "name": "开源中国",
+          "url": "https://www.oschina.net/news",
+          "fetch_method": "webfetch",
+          "extract": "latest_5",
+          "enabled": true,
+          "avg_quality": 3.8,
+          "success_rate": 0.88,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["AI 开源项目", "开发者工具"]
+        },
+        {
+          "id": "juejin_ai",
+          "name": "掘金 AI 专栏",
+          "url": "https://juejin.cn/ai",
+          "fetch_method": "webfetch",
+          "extract": "latest_5",
+          "enabled": true,
+          "avg_quality": 3.7,
+          "success_rate": 0.85,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["AI 开发教程", "实践分享"]
+        },
+        {
+          "id": "zhihu_ai",
+          "name": "知乎 AI 话题",
+          "url": "https://www.zhihu.com/topic/19551275",
+          "fetch_method": "browser",
+          "extract": "hot_5",
+          "enabled": true,
+          "avg_quality": 4.0,
+          "success_rate": 0.70,
+          "content_type": "discussion",
+          "language": "zh-CN",
+          "focus": ["AI 深度讨论", "行业分析"],
+          "note": "需要浏览器渲染，反爬较严"
+        }
+      ]
+    },
+
+    "tier2_ecom": {
+      "description": "跨境电商平台",
+      "sources": [
+        {
+          "id": "cifnews",
+          "name": "雨果跨境",
+          "url": "https://www.cifnews.com",
+          "fetch_method": "webfetch",
+          "extract": "latest_5",
+          "enabled": true,
+          "avg_quality": 3.8,
+          "success_rate": 0.85,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["跨境电商 AI", "平台政策"]
+        },
+        {
+          "id": "ebrun",
+          "name": "亿邦动力",
+          "url": "https://www.ebrun.com",
+          "fetch_method": "webfetch",
+          "extract": "latest_5",
+          "enabled": true,
+          "avg_quality": 3.9,
+          "success_rate": 0.83,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["电商 AI 变革", "行业趋势"]
+        },
+        {
+          "id": "amz123",
+          "name": "AMZ123",
+          "url": "https://www.amz123.com",
+          "fetch_method": "webfetch",
+          "extract": "latest_5",
+          "enabled": true,
+          "avg_quality": 3.7,
+          "success_rate": 0.80,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["亚马逊卖家", "AI 选品工具"]
+        }
+      ]
+    },
+
+    "tier2_new_media": {
+      "description": "新媒体行业平台",
+      "sources": [
+        {
+          "id": "newrank",
+          "name": "新榜",
+          "url": "https://www.newrank.cn",
+          "fetch_method": "webfetch",
+          "extract": "latest_5",
+          "enabled": true,
+          "avg_quality": 3.8,
+          "success_rate": 0.80,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["新媒体数据", "AI 内容创作趋势"]
+        },
+        {
+          "id": "topklout",
+          "name": "克劳锐",
+          "url": "https://www.topklout.com",
+          "fetch_method": "webfetch",
+          "extract": "latest_3",
+          "enabled": true,
+          "avg_quality": 3.6,
+          "success_rate": 0.75,
+          "content_type": "article",
+          "language": "zh-CN",
+          "focus": ["KOL 数据", "AI 网红营销"]
+        }
+      ]
+    },
+
+    "tier3_video": {
+      "description": "视频平台 (需要浏览器或 API)",
+      "sources": [
+        {
+          "id": "bilibili_ai",
+          "name": "B站 AI 频道",
+          "url": "https://www.bilibili.com",
+          "fetch_method": "browser",
+          "extract": "search_ai_hot",
+          "enabled": true,
+          "avg_quality": 3.8,
+          "success_rate": 0.65,
+          "content_type": "video",
+          "language": "zh-CN",
+          "focus": ["AI 教程", "评测视频", "技术分享"],
+          "search_keywords": ["AI工具", "Claude", "Cursor", "大模型", "AI编程"],
+          "note": "搜索 AI 相关热门视频"
+        },
+        {
+          "id": "douyin_tech",
+          "name": "抖音科技",
+          "url": "https://www.douyin.com",
+          "fetch_method": "browser",
+          "extract": "search_ai_hot",
+          "enabled": false,
+          "avg_quality": 3.5,
+          "success_rate": 0.50,
+          "content_type": "short_video",
+          "language": "zh-CN",
+          "focus": ["AI 工具演示", "科技热点"],
+          "note": "反爬严格，默认禁用"
+        },
+        {
+          "id": "xiaohongshu_ai",
+          "name": "小红书 AI",
+          "url": "https://www.xiaohongshu.com",
+          "fetch_method": "browser",
+          "extract": "search_ai_tools",
+          "enabled": false,
+          "avg_quality": 3.4,
+          "success_rate": 0.45,
+          "content_type": "note",
+          "language": "zh-CN",
+          "focus": ["AI 工具种草", "使用体验"],
+          "note": "反爬严格，默认禁用"
+        }
+      ]
+    },
+
+    "tier3_wechat": {
+      "description": "微信公众号 (无法直接抓取，需手动或第三方)",
+      "sources": [
+        {
+          "id": "wx_qbitai",
+          "name": "量子位",
+          "fetch_method": "manual",
+          "enabled": false,
+          "content_type": "wechat_article",
+          "language": "zh-CN",
+          "focus": ["AI 行业新闻", "技术解读"],
+          "note": "微信生态，需手动获取或使用搜狗微信搜索"
+        },
+        {
+          "id": "wx_xinzhiyuan",
+          "name": "新智元",
+          "fetch_method": "manual",
+          "enabled": false,
+          "content_type": "wechat_article",
+          "language": "zh-CN",
+          "focus": ["AI 前沿资讯", "深度报道"],
+          "note": "微信生态，需手动获取"
+        },
+        {
+          "id": "wx_jiqizhixin",
+          "name": "机器之心 (公众号)",
+          "fetch_method": "manual",
+          "enabled": false,
+          "content_type": "wechat_article",
+          "language": "zh-CN",
+          "focus": ["AI 论文", "技术产品"],
+          "note": "与网站内容部分重叠，优先用网站"
+        }
+      ]
+    }
+  },
+
+  "fetch_config": {
+    "webfetch": {
+      "timeout_ms": 30000,
+      "retry_count": 1,
+      "headers": {
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8"
+      }
+    },
+    "browser": {
+      "timeout_ms": 45000,
+      "wait_for_selector": "article, .post, .item, .feed-item",
+      "screenshot_on_error": true
+    }
+  },
+
+  "quality_thresholds": {
+    "min_score_to_include": 3,
+    "target_items": 15,
+    "early_stop_threshold": 20
+  }
+}

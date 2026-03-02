@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771557366932-x044srrdq",
+  "title": "补充进每个十年目标分解下的五年目标再分解具体2026年的目标 @Alex/人生红点/01人生目标树/...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771557366932,
+  "updatedAt": 1771558554136,
+  "lastResponseAt": 1771557671012,
+  "sessionId": "dbd9865a-f31e-4066-92b3-b5ce2e7055ab",
+  "sdkSessionId": "dbd9865a-f31e-4066-92b3-b5ce2e7055ab",
+  "currentNote": "Alex/人生红点/01人生目标树/目标思维导图.canvas",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 45484,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 45484,
+    "percentage": 23
+  }
+}

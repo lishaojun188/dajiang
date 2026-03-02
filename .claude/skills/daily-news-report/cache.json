@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "description": "Daily News Report 缓存文件，用于避免重复抓取和跟踪历史表现",
+
+  "last_run": {
+    "date": "2026-02-08",
+    "duration_seconds": 120,
+    "items_collected": 20,
+    "items_published": 20,
+    "sources_used": ["hn", "hf_papers", "one_useful_thing"]
+  },
+
+  "source_stats": {
+    "_comment": "记录每个源的历史表现，用于动态调整优先级",
+    "hn": {
+      "total_fetches": 0,
+      "success_count": 0,
+      "avg_items_per_fetch": 0,
+      "avg_quality_score": 0,
+      "last_fetch": null,
+      "last_success": null
+    }
+  },
+
+  "url_cache": {
+    "_comment": "已处理的 URL 缓存，避免重复收录",
+    "_ttl_hours": 168,
+    "entries": {}
+  },
+
+  "content_hashes": {
+    "_comment": "内容指纹，用于去重",
+    "_ttl_hours": 168,
+    "entries": {}
+  },
+
+  "article_history": {
+    "_comment": "已收录文章的简要记录",
+    "2026-01-21": [],
+    "2026-02-08": [
+      "France's homegrown open source online office suite|https://github.com/suitenumerique",
+      "Hoot: Scheme on WebAssembly|https://www.spritely.institute/hoot/",
+      "OpenCiv3: Open-source, cross-platform reimagining of Civilization III|https://openciv3.org/",
+      "Reinforcement Learning from Human Feedback|https://arxiv.org/abs/2504.12501",
+      "The Waymo World Model|https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation",
+      "Kappal – CLI to Run Docker Compose YML on Kubernetes for Local Dev|https://github.com/sandys/kappal",
+      "Look Ma, No Linux: Shell, App Installer, Vi, Cc on ESP32-S3 (BreezyBox)|https://github.com/valdanylchuk/breezydemo",
+      "Monty: A minimal, secure Python interpreter written in Rust for use by AI|https://github.com/pydantic/monty",
+      "Making geo joins faster with H3 indexes|https://floedb.ai/blog/how-we-made-geo-joins-400-faster-with-h3-indexes",
+      "Microsoft open-sources LiteBox, a security-focused library OS|https://github.com/microsoft/litebox",
+      "Management as AI superpower|https://www.oneusefulthing.org/p/management-as-ai-superpower",
+      "Claude Code and What Comes Next|https://www.oneusefulthing.org/p/claude-code-and-what-comes-next",
+      "The Shape of AI: Jaggedness, Bottlenecks and Salients|https://www.oneusefulthing.org/p/the-shape-of-ai-jaggedness-bottlenecks",
+      "CAR-bench: Evaluating the Consistency and Limit-Awareness of LLM Agents under Real-World Uncertainty|https://huggingface.co/papers/2601.22027",
+      "Spider-Sense: Intrinsic Risk Sensing for Efficient Agent Defense with Hierarchical Adaptive Screening|https://huggingface.co/papers/2602.05386",
+      "Length-Unbiased Sequence Policy Optimization: Revealing and Controlling Response Length Variation in RLVR|https://huggingface.co/papers/2602.05261",
+      "MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents|https://huggingface.co/papers/2602.02474",
+      "Context Forcing: Consistent Autoregressive Video Generation with Long Context|https://huggingface.co/papers/2602.06028",
+      "DFlash: Block Diffusion for Flash Speculative Decoding|https://huggingface.co/papers/2602.06036",
+      "ProAct: Agentic Lookahead in Interactive Environments|https://huggingface.co/papers/2602.05327"
+    ]
+  }
+}

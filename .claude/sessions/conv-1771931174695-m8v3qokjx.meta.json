@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771931174695-m8v3qokjx",
+  "title": "報表期間: 2026年02月16日 - 2026年02月22日",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771931174696,
+  "updatedAt": 1771997246319,
+  "lastResponseAt": 1771931330205,
+  "sessionId": "8e51d3ca-65da-4719-b441-76ea236eab33",
+  "sdkSessionId": "8e51d3ca-65da-4719-b441-76ea236eab33",
+  "currentNote": "Alex/人生红点/02 项目树/项目文件清单/项目5_跨境电商启动/项目概览.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 27030,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 27030,
+    "percentage": 14
+  }
+}

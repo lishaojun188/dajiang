@@ -1,0 +1,20 @@
+{
+  "id": "conv-1772004762223-tf6pfqxyy",
+  "title": "@Alex/人生红点/02 项目树/项目文件清单/项目5_跨境电商启动/SOP/【订单】完整运营流程",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772004762223,
+  "updatedAt": 1772006036839,
+  "lastResponseAt": 1772004863016,
+  "sessionId": "de8d481f-301e-4b46-8c9d-1e4040788a3c",
+  "sdkSessionId": "de8d481f-301e-4b46-8c9d-1e4040788a3c",
+  "currentNote": "Alex/人生红点/02 项目树/项目文件清单/项目5_跨境电商启动/SOP/电商的多层级单元模型运营说明.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 36311,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 36311,
+    "percentage": 18
+  }
+}

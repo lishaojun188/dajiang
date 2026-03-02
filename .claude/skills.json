@@ -1,0 +1,62 @@
+{
+  "skills": {
+    "vpn-build": {
+      "description": "Build the VPN application",
+      "command": "npm run build",
+      "workingDirectory": "banana_vpn_pro/banana_vpn_v1.3.5",
+      "category": "Development"
+    },
+    "vpn-dev": {
+      "description": "Start VPN development server",
+      "command": "npm run dev",
+      "workingDirectory": "banana_vpn_pro/banana_vpn_v1.3.5",
+      "category": "Development"
+    },
+    "vpn-install": {
+      "description": "Install VPN dependencies",
+      "command": "npm install",
+      "workingDirectory": "banana_vpn_pro/banana_vpn_v1.3.5",
+      "category": "Development"
+    },
+    "update-prd": {
+      "description": "Update product requirements documentation",
+      "command": "ls \"02 banana_vpn_prd\"",
+      "category": "Documentation"
+    },
+    "git-status-all": {
+      "description": "Check git status for all modified files",
+      "command": "git status -s",
+      "category": "Git"
+    },
+    "prdsync": {
+      "description": "Ensure code aligns with product documentation",
+      "command": "echo 'Please review 02 banana_vpn_prd folder for latest requirements'",
+      "category": "Product/QA"
+    },
+    "default-data-check": {
+      "description": "Verify default data fallback logic is implemented",
+      "command": "echo 'Check if backend is unavailable -> fallback logic present'",
+      "category": "Development"
+    },
+    "esbuild-verify": {
+      "description": "Verify esbuild configuration",
+      "command": "ls banana_vpn_pro/banana_vpn_v1.3.5 | grep -E '(esbuild|build.js|vite.config)'",
+      "category": "Build"
+    },
+    "tailwind-check": {
+      "description": "Verify Tailwind PostCSS configuration (no CDN)",
+      "command": "echo 'Checking Tailwind PostCSS setup...' && grep -r 'tailwind' banana_vpn_pro/banana_vpn_v1.3.5/package.json",
+      "category": "Styling"
+    },
+    "create-ppt": {
+      "description": "Create PowerPoint presentation from markdown or template",
+      "command": "node .claude/skills/create-ppt.js",
+      "category": "Documentation"
+    },
+    "ppt-template": {
+      "description": "Show available PowerPoint templates",
+      "command": "echo 'Available templates: Standard, Business, Technical, VPN-Business, Product-Landing'",
+      "category": "Documentation"
+    }
+  }
+}

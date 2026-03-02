@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771558662969-ioltx9fmd",
+  "title": "@Alex/人生红点/02 项目树/2026年项目",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771558662969,
+  "updatedAt": 1771559711703,
+  "lastResponseAt": 1771558770739,
+  "sessionId": "c9eb8cbb-832e-498b-9f5a-c155857c16af",
+  "sdkSessionId": "c9eb8cbb-832e-498b-9f5a-c155857c16af",
+  "currentNote": "Alex/人生红点/03 任务树/任务存储架构方案.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 50344,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 50344,
+    "percentage": 25
+  }
+}

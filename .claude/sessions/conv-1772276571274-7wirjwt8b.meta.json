@@ -1,0 +1,19 @@
+{
+  "id": "conv-1772276571274-7wirjwt8b",
+  "title": "甘特图有别的方案吗，这样不直观也不易于修改",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772276571275,
+  "updatedAt": 1772277401333,
+  "lastResponseAt": 1772277401333,
+  "sessionId": "25fb98e7-8c86-409e-94a0-4e3fa6e6b6a8",
+  "sdkSessionId": "25fb98e7-8c86-409e-94a0-4e3fa6e6b6a8",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 48653,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 48653,
+    "percentage": 24
+  }
+}

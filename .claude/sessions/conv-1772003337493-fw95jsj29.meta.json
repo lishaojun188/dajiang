@@ -1,0 +1,20 @@
+{
+  "id": "conv-1772003337493-fw95jsj29",
+  "title": "输出电商公司多店铺，多市场运营sop",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772003337494,
+  "updatedAt": 1772003560919,
+  "lastResponseAt": 1772003500258,
+  "sessionId": "9c98e060-2755-4f6a-95d1-610ecb247a25",
+  "sdkSessionId": "9c98e060-2755-4f6a-95d1-610ecb247a25",
+  "currentNote": "Alex/人生红点/02 项目树/项目文件清单/项目5_跨境电商启动/SOP/【多店（公司）】运营sop.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 25629,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 25629,
+    "percentage": 13
+  }
+}

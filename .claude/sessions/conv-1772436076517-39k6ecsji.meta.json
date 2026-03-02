@@ -1,0 +1,20 @@
+{
+  "id": "conv-1772436076517-39k6ecsji",
+  "title": "心咖啡本周行动",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772436076518,
+  "updatedAt": 1772436462635,
+  "lastResponseAt": 1772436148185,
+  "sessionId": "5c7f7b32-b33f-4d5a-a552-1403d47f8488",
+  "sdkSessionId": "5c7f7b32-b33f-4d5a-a552-1403d47f8488",
+  "currentNote": "Alex/人生红点/03 任务树/weekly/2026-W10.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 26121,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 26121,
+    "percentage": 13
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "conv-1772434885758-woagumyjk",
+  "title": "重新根据这个运营计划安排具体任务",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772434885760,
+  "updatedAt": 1772436050900,
+  "lastResponseAt": 1772435420400,
+  "sessionId": "7469c58e-a6ec-4d55-8dd5-67ccb22ef41d",
+  "sdkSessionId": "7469c58e-a6ec-4d55-8dd5-67ccb22ef41d",
+  "currentNote": "Alex/人生红点/02 项目树/项目文件清单/项目18_心咖啡/运营计划.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 61638,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 61638,
+    "percentage": 31
+  }
+}

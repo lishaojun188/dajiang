@@ -1,0 +1,20 @@
+{
+  "id": "conv-1772318888669-vvwrkit67",
+  "title": "obsidian 文件只占用屏幕中间位置， 两边空白很多，有办法铺开展示吗？",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772318888670,
+  "updatedAt": 1772319944162,
+  "lastResponseAt": 1772319944162,
+  "sessionId": "9636e5c9-5356-4235-b40a-8c5245788391",
+  "sdkSessionId": "9636e5c9-5356-4235-b40a-8c5245788391",
+  "currentNote": "Alex/人生红点/03 任务树/tasks/2026-03-甘特图.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 40143,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 40143,
+    "percentage": 20
+  }
+}

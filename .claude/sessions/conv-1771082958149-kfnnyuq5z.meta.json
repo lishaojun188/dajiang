@@ -1,0 +1,20 @@
+{
+  "id": "conv-1771082958149-kfnnyuq5z",
+  "title": "给每个项目合理安排开始结束时间，怎么都是全年性质的",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771082958149,
+  "updatedAt": 1771116206406,
+  "lastResponseAt": 1771083431914,
+  "sessionId": "5deb7753-54da-4239-a7cd-4eeedae3c7d3",
+  "sdkSessionId": "5deb7753-54da-4239-a7cd-4eeedae3c7d3",
+  "currentNote": "Alex/人生红点/01人生目标树/2026年度目标.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 46929,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 46929,
+    "percentage": 23
+  }
+}

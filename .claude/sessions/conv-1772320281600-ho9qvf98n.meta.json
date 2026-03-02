@@ -1,0 +1,20 @@
+{
+  "id": "conv-1772320281600-ho9qvf98n",
+  "title": "用canvas 画一个产品功能蓝图",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1772320281601,
+  "updatedAt": 1772349339213,
+  "lastResponseAt": 1772320395953,
+  "sessionId": "a96e99a9-22f0-4f6f-91c8-787c925f12d1",
+  "sdkSessionId": "a96e99a9-22f0-4f6f-91c8-787c925f12d1",
+  "currentNote": "DJI HR/01-产品战略规划/产品愿景与路线图.md",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 32087,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 32087,
+    "percentage": 16
+  }
+}

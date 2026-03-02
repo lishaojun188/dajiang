@@ -1,0 +1,19 @@
+{
+  "id": "conv-1771080766566-zgqiv8orj",
+  "title": "@Alex/人生红点/02 项目树/2026年项目",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1771080766569,
+  "updatedAt": 1771081011309,
+  "lastResponseAt": 1771080913376,
+  "sessionId": "539839b4-0286-4ce7-bf45-e3b01705ca49",
+  "sdkSessionId": "539839b4-0286-4ce7-bf45-e3b01705ca49",
+  "usage": {
+    "model": "kimi-k2.5",
+    "inputTokens": 36038,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 36038,
+    "percentage": 18
+  }
+}
